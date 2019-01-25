@@ -9,6 +9,6 @@ input = gets.strip
 
 board = [" "," "," "," "," "," "," "," "," "]
 
-input_to_index(user_input)
+index = input_to_index(user_input)
 move(board, index, current_player = "X")
 display_board(board)
