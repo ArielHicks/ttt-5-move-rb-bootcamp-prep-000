@@ -14,6 +14,6 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-# def move(spot)
-#   puts "I'd like to move to #{spot}."
-# end
+def move(board, index, character)
+  puts "I'd like to move to #{spot}."
+end
