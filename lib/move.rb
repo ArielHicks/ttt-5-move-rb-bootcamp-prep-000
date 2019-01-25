@@ -11,7 +11,7 @@ end
 # The input_to_index method will take the user's input ("1"-"9")
 # and convert it to the index of the board array (0-8).
 def input_to_index(user_input)
-
+  user_input.to_i - 1
 end
 
 # def move(spot)
